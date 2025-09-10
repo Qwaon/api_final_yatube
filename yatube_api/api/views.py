@@ -69,12 +69,6 @@ class CommentViewSet(viewsets.ModelViewSet):
         instance.delete()
 
 
-class CreateListViewSet(
-    mixins.CreateModelMixin,
-    mixins.ListModelMixin,
-    viewsets.GenericViewSet
-):
-    pass
 
 
 class FollowViewSet(CreateListViewSet):
