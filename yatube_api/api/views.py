@@ -70,7 +70,6 @@ class CommentViewSet(viewsets.ModelViewSet):
 
 
 
-
 class FollowViewSet(CreateListViewSet):
     serializer_class = FollowSerializer
     permission_classes = [IsAuthenticated]
